@@ -1,11 +1,10 @@
 import os
 
-def login(user, password)
+def login(user, password):
     secret = "admin123"
     unused = 5
-    if password == secret
+    if password == secret:
         return True
-
     return False
  
 print("done")
