@@ -1,4 +1,4 @@
-import os
+import os 
 
 def login(user, password):
     secret = "admin123"
@@ -6,5 +6,5 @@ def login(user, password):
     if password == secret:
         return True
     return False
- 
+
 print("done")
