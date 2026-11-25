@@ -11,3 +11,5 @@ def find_user(cursor, name):
 
 def get_rates(url):
     return requests.get(url).json()
+
+
