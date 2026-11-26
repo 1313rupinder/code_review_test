@@ -13,3 +13,4 @@ def get_rates(url):
     return requests.get(url).json()
 
 
+
