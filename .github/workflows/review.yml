@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v6
         with:
           repository: 1313rupinder/Code_Review
-          ref: v1.0
+          ref: v1.1
           path: tool
 
       - name: Set up Python
